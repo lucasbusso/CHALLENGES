@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu desplegable</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="dropdown" data-dropdown>
+                <button class="link" data-dropdown-button >Información</button>
+                <div class="dropdown-menu information-grid">
+                    <div>
+                        <div class="dropdown-heading">Tutoriales</div>
+                        <div class="dropdown-links">
+                            <a href="#" class="link">Todos</a>
+                            <a href="#" class="link">Últimos</a>
+                            <a href="#" class="link">Más Populares</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dropdown-heading">Cursos</div>
+                        <div class="dropdown-links">
+                            <a href="#" class="link">JavaScript</a>
+                            <a href="#" class="link">HTML</a>
+                            <a href="#" class="link">CSS</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dropdown-heading">Blog</div>
+                        <div class="dropdown-links">
+                            <a href="#" class="link">Todos</a>
+                            <a href="#" class="link">Últimos</a>
+                            <a href="#" class="link">Más Populares</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dropdown-heading">Otros</div>
+                        <div class="dropdown-links">
+                            <a href="#" class="link">Twitter</a>
+                            <a href="#" class="link">instagram</a>
+                            <a href="#" class="link">Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="link">Precios</a>
+            <div class="dropdown" data-dropdown="">
+                <button class="link" data-dropdown-button>Iniciar Sesión</button>
+                <div class="dropdown-menu" >
+                    <form  class="login-form">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
